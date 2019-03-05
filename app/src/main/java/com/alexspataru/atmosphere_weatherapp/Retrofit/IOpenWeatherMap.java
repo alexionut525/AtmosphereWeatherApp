@@ -1,4 +1,4 @@
-package com.alexspataru.atmosphere_weatherapp.Common;
+package com.alexspataru.atmosphere_weatherapp.Retrofit;
 
 import com.alexspataru.atmosphere_weatherapp.Model.WeatherResult;
 
