@@ -15,6 +15,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.widget.ImageView;
 
 import com.alexspataru.atmosphere_weatherapp.Adapter.ViewPagerAdapter;
 import com.alexspataru.atmosphere_weatherapp.Common.Common;
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
+    private ImageView logo;
 
     private CoordinatorLayout coordinatorLayout;
     private FusedLocationProviderClient fusedLocationProviderClient;

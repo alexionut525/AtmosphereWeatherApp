@@ -1,5 +1,6 @@
 package com.alexspataru.atmosphere_weatherapp.Common;
 
+import android.annotation.SuppressLint;
 import android.location.Location;
 
 import java.text.SimpleDateFormat;
@@ -12,7 +13,7 @@ public class Common {
 
     public static String convertUnixToDate(int dt) {
         Date date = new Date(dt*1000L);
-        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm dd EEE MM yyyy");
+        @SuppressLint("SimpleDateFormat") SimpleDateFormat sdf = new SimpleDateFormat("HH:mm EEE dd MM yyyy");
         String formatted = sdf.format(date);
         return formatted;
     }
