@@ -1,4 +1,4 @@
 # AtmosphereWeatherApp
-Weather App underconstruction. 
+Weather App a simple Android app made with no previous experience.
 
-A Weather App like no other! 
+
